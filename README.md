@@ -6,9 +6,9 @@
 <a href="https://ko-fi.com/nightexpress"><img src="https://nightexpressdev.com/img/generic/btn_donate.png"></a>
 <a href="https://nightexpressdev.com/excellentjobs/"><img src="https://nightexpressdev.com/img/generic/btn_wiki.png"></a>
 
-![](https://repo.nightexpressdev.com/api/badge/latest/releases/su/nightexpress/dungeonarena/AdvancedDungeonArena?color=40c14a&name=AdvancedDungeonArena&prefix=v)
+![](https://repo.nightexpressdev.com/api/badge/latest/releases/su/nightexpress/orbisdungeons/OrbisDungeons?color=40c14a&name=OrbisDungeons&prefix=v)
 
-**AdvancedDungeonArena** is a **flexible**, **script-based** custom dungeon creator plugin.
+**OrbisDungeons** is a **flexible**, **script-based** custom dungeon creator plugin.
 
 </div>
 
