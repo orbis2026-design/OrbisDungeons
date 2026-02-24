@@ -118,6 +118,12 @@
             <artifactId>Core</artifactId>
             <version>3.16.0</version>
             <scope>provided</scope>
+            <exclusions>
+                <exclusion>
+                    <groupId>io.papermc.paper</groupId>
+                    <artifactId>paper-api</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
 
         <dependency>
@@ -125,6 +131,12 @@
             <artifactId>API</artifactId>
             <version>3.16.0</version>
             <scope>provided</scope>
+            <exclusions>
+                <exclusion>
+                    <groupId>io.papermc.paper</groupId>
+                    <artifactId>paper-api</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
 
         <dependency>
@@ -132,6 +144,13 @@
             <artifactId>Mythic-Dist</artifactId>
             <version>5.10.0</version>
             <scope>provided</scope>
+
+            <exclusions>
+                <exclusion>
+                    <groupId>io.papermc.paper</groupId>
+                    <artifactId>paper-api</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
 
         <!--<dependency>
@@ -146,6 +165,13 @@
             <artifactId>placeholderapi</artifactId>
             <version>2.11.6</version>
             <scope>provided</scope>
+
+            <exclusions>
+                <exclusion>
+                    <groupId>io.papermc.paper</groupId>
+                    <artifactId>paper-api</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
 
         <dependency>
@@ -153,6 +179,13 @@
             <artifactId>packetevents-spigot</artifactId>
             <version>2.9.0</version>
             <scope>provided</scope>
+
+            <exclusions>
+                <exclusion>
+                    <groupId>io.papermc.paper</groupId>
+                    <artifactId>paper-api</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
 
         <dependency>
@@ -160,6 +193,13 @@
             <artifactId>ProtocolLib</artifactId>
             <version>5.3.0</version>
             <scope>provided</scope>
+
+            <exclusions>
+                <exclusion>
+                    <groupId>io.papermc.paper</groupId>
+                    <artifactId>paper-api</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
 
         <dependency>
@@ -180,7 +220,11 @@
                     <groupId>net.md-5</groupId>
                     <artifactId>bungeecord-chat</artifactId>
                 </exclusion>
-            </exclusions>
+                            <exclusion>
+                    <groupId>io.papermc.paper</groupId>
+                    <artifactId>paper-api</artifactId>
+                </exclusion>
+</exclusions>
         </dependency>
 
         <dependency>
@@ -188,6 +232,13 @@
             <artifactId>TAB-API</artifactId>
             <version>5.2.5</version>
             <scope>provided</scope>
+
+            <exclusions>
+                <exclusion>
+                    <groupId>io.papermc.paper</groupId>
+                    <artifactId>paper-api</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
 
         <dependency>
@@ -200,7 +251,11 @@
                     <groupId>com.sk89q.worldguard</groupId>
                     <artifactId>*</artifactId>
                 </exclusion>
-            </exclusions>
+                            <exclusion>
+                    <groupId>io.papermc.paper</groupId>
+                    <artifactId>paper-api</artifactId>
+                </exclusion>
+</exclusions>
         </dependency>
 
         <dependency>
@@ -209,6 +264,13 @@
             <version>1.6.2-SNAPSHOT</version>
             <scope>provided</scope>
             <optional>true</optional>
+
+            <exclusions>
+                <exclusion>
+                    <groupId>io.papermc.paper</groupId>
+                    <artifactId>paper-api</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
 
         <dependency>
@@ -216,6 +278,13 @@
             <artifactId>MMOCore-API</artifactId>
             <version>1.12.1-SNAPSHOT</version>
             <scope>provided</scope>
+
+            <exclusions>
+                <exclusion>
+                    <groupId>io.papermc.paper</groupId>
+                    <artifactId>paper-api</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
 
         <dependency>
@@ -223,6 +292,12 @@
             <artifactId>API</artifactId>
             <version>2.5.0</version>
             <scope>provided</scope>
+            <exclusions>
+                <exclusion>
+                    <groupId>io.papermc.paper</groupId>
+                    <artifactId>paper-api</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
 
         <dependency>
@@ -230,6 +305,13 @@
             <artifactId>AuroraLevels</artifactId>
             <version>2.0.0</version>
             <scope>provided</scope>
+
+            <exclusions>
+                <exclusion>
+                    <groupId>io.papermc.paper</groupId>
+                    <artifactId>paper-api</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
 
         <dependency>
@@ -237,6 +319,13 @@
             <artifactId>Aurora</artifactId>
             <version>2.1.6</version>
             <scope>provided</scope>
+
+            <exclusions>
+                <exclusion>
+                    <groupId>io.papermc.paper</groupId>
+                    <artifactId>paper-api</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
 
         <dependency>
